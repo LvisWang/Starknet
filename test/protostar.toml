@@ -1,0 +1,12 @@
+[project]
+protostar-version = "0.9.1"
+lib-path = "lib"
+
+[contracts]
+main = ["src/main.cairo"]
+
+test = ["src/token.cairo"]
+
+[profile.devnet.project]
+gateway-url = "http://127.0.0.1:5000/"
+chain-id = 1536727068981429685321
